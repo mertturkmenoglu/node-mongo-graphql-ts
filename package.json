@@ -4,17 +4,31 @@
   "description": "Demo application with Node.js &amp; Express.js &amp; Mongoose &amp; Apollo GraphQL &amp; TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mertturkmenoglu/node-mongo-graphql-ts.git"
   },
-  "keywords": ["Node", "Express", "Mongo", "GraphQL"],
+  "keywords": [
+    "Node",
+    "Express",
+    "Mongo",
+    "GraphQL"
+  ],
   "author": "Mert TURKMENOGLU",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mertturkmenoglu/node-mongo-graphql-ts/issues"
   },
-  "homepage": "https://github.com/mertturkmenoglu/node-mongo-graphql-ts#readme"
+  "homepage": "https://github.com/mertturkmenoglu/node-mongo-graphql-ts#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "tslint": "^6.1.3"
+  }
 }
