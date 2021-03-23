@@ -1,0 +1,20 @@
+{
+  "name": "node-mongo-graphql-ts",
+  "version": "1.0.0",
+  "description": "Demo application with Node.js &amp; Express.js &amp; Mongoose &amp; Apollo GraphQL &amp; TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertturkmenoglu/node-mongo-graphql-ts.git"
+  },
+  "keywords": ["Node", "Express", "Mongo", "GraphQL"],
+  "author": "Mert TURKMENOGLU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mertturkmenoglu/node-mongo-graphql-ts/issues"
+  },
+  "homepage": "https://github.com/mertturkmenoglu/node-mongo-graphql-ts#readme"
+}
