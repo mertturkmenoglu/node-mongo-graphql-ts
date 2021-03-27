@@ -6,6 +6,7 @@ import { resolvers } from "./resolvers";
 import { typeDefs } from "./typeDefs";
 
 const app = express();
+const PORT = process.env.PORT || 4000;
 
 const MONGO_URI = "mongodb://localhost:27017/graphql-test-db";
 const MONGOOSE_OPTIONS: mongoose.ConnectOptions = {
@@ -24,6 +25,6 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app });
 
-app.listen(4000, () => {
-  console.log(`Server started listening on port 4000: http://localhost:4000${server.graphqlPath}`);
+app.listen(PORT, () => {
+  console.log(`Server started listening on port ${PORT}: http://localhost:${PORT}${server.graphqlPath}`);
 });
